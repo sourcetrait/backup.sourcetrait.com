@@ -1,0 +1,51 @@
+[values]
+# Leave the 'Expanded' variables empty to generate based on raw data and defaults.
+
+# Suite
+suite-title = "SourceTrait"
+suite-brand-dir = "sourcetrait"
+suite-cli-name = "srctrait"
+
+# Suite (Expanded)
+suite-title-lowercase = ""
+suite-slug = ""
+
+# Suite Member
+suite-member-title = "Backup"
+
+# Suite Member (Expanded)
+suite-member-title-lowercase = ""
+suite-member-slug = ""
+suite-member-cli-name = ""
+
+# Product
+product-title = "SourceTrait Backup"
+product-brand-dir = "sourcetrait/backup"
+
+# Product (Expanded)
+product-title-lowercase = ""
+product-slug = ""
+product-cli-name = ""
+
+# Site
+site-domain-name = "backup.sourcetrait.com"
+site-title = "Backup | SourceTrait"
+site-description = "Rotational backup system for workstation users"
+
+# Site (Expanded)
+site-url = ""
+
+# Repository
+repository-name = "srctrait-backup"
+
+# Repository (Defaults)
+repository-url-base = ""
+repository-homepage-url = ""
+repository-copyright-holder-name = ""
+repository-copyright-holder-url = ""
+repository-info-file-name = ""
+repository-info-file-path = ""
+
+# Repository (Expanded)
+repository-url = ""
+repository-copyright-year = ""
