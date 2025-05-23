@@ -1,5 +1,5 @@
 #!/bin/bash
-# generate.bash rev1
+# generate.bash rev2
 # Usage:
 #     generate.bash [do]
 #        do:
@@ -37,12 +37,17 @@ function trim_whitespace {
     printf '%s' "$var"
 }
 
+SOURCE="sourcetrait/templates"
+
 DO="${1:-}"
 [[ -n "$DO" ]] && {
     case "$DO" in
         clean)
             do_clean
             exit 0
+            ;;
+        local)
+            SOURCE="--path "$SRCTRAIT/templates""
             ;;
         regen)
             do_clean
@@ -62,4 +67,4 @@ TMPL_NAME="$(trim_whitespace "$(<"$DIR/.gen/template-name")")"
 cargo generate --init --overwrite --allow-commands \
     --name "$GEN_NAME" \
     --values-file "$DIR/.gen/cargo-generate.values.toml" \
-    sourcetrait/templates "$TMPL_NAME"
+    $SOURCE "$TMPL_NAME"

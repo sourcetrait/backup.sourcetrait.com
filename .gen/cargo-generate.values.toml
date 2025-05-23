@@ -31,6 +31,8 @@ product-cli-name = ""
 site-domain-name = "backup.sourcetrait.com"
 site-title = "Backup | SourceTrait"
 site-description = "Rotational backup system for workstation users"
+site-theme = ""
+site-logo-variant = "_stroke-yellow"
 
 # Site (Expanded)
 site-url = ""
