@@ -49,3 +49,6 @@ repository-info-file-path = ""
 # Repository (Expanded)
 repository-url = ""
 repository-copyright-year = ""
+
+# Copy (Expanded from assets.rhai)
+copy-product-description = ""
